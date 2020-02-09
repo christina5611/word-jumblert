@@ -47,7 +47,12 @@ int main()
 	{"false", "Something that is not right."} ,
 	{"bool", "It can be true or false depending on the value of i."},
 	{"Try", "one word for attempting to do something."} ,
-		{"jumble", "It's what the game is all about."}
+		{"else", "If something proves not to be true we do this.."},
+				{"do", "What needs to be done."},
+				{"true", "the opposite of false."},
+				{"break", "to stop and transfer control."},
+				{"void", "does not have a return value."},
+				{"typename", "another word for class."}
 
 			};
 
@@ -108,11 +113,7 @@ int main()
 			}
 
 		}
-
-
-
 		cout << "Would you like to play again? (Y/N)" << endl;
-
 		cin >> usersPlayAgainChoice;
 
 		//user input to keep playing
